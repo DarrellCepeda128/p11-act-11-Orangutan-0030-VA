@@ -19,10 +19,10 @@ axes[0].imshow(img_bgr)
 axes[0].set_title("Original 0030 OpenCV (BGR incorrecto)")
 
 axes[1].imshow(img_rgb)
-axes[1].set_title("Convertido a RGB")
+axes[1].set_title("Convertido a RGB 0030")
 
 axes[2].imshow(img_gray, cmap='gray')
-axes[2].set_title("Escala de Grises")
+axes[2].set_title("Escala de Grises 0030")
 
 for ax in axes:
     ax.axis('off')
